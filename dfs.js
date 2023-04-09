@@ -5,8 +5,8 @@ window.addEventListener('load', () => {
     generateGrid()
 });
 
-let row = 5
-let col = 5
+let row = 10
+let col = 10
 
 
 function checkoverflow(box) {
@@ -91,7 +91,7 @@ async function startDFS(event) {
     const start = event.target.innerText
     if (isNaN(start)) return
 
-    //const time = 1000000;
+    const time = 600;
     const moves = [{ i: 0, j: 1 }, { i: 0, j: -1 }, { i: 1, j: 0 }, { i: -1, j: 0 }]
     let visited = emptyArray(row, col);
 

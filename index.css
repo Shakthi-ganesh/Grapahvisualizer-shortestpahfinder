@@ -42,7 +42,7 @@ footer a{
     color: #fff;
     transition: all 0.3s linear;
     overflow: hidden;
-    background-color: var(--orange-light);
+    background-color: black;
 }
 
 .two a {
@@ -56,7 +56,7 @@ footer a{
 .one a::before,
 .three a::after,
 .three a::before {
-    background-color: var(--orange-dark);
+    background-color: black;
 }
 .algo a:hover {
     border: 10px solid white;
@@ -75,7 +75,7 @@ footer a{
     content: "Breadth First Search Traversal of graph";
 }
 .two a::after {
-    content: "A Star Path finding algorithm";
+    content: "Shortest Path finding algorithm";
 }
 .three a::after {
     content: "Depth First Search Traversal of graph";
@@ -108,6 +108,10 @@ footer a{
 .algo a:hover::after {
     transform: translateY(0);
 }
+.heading{
+    margin-top: 10%;
+}
+
 @media only screen and (max-width: 650px) {
     main section {
         grid-template-columns: 1fr;
