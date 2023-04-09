@@ -45,12 +45,13 @@ footer a{
     background-color: black;
 }
 
+
 .two a {
-    background-color: var(--purple);
+    background-color: #769656;
 }
 .two a::after,
 .two a::before {
-    background-color: var(--purple-dark);
+    background-color: #769656;
 }
 .one a::after,
 .one a::before,
@@ -109,7 +110,19 @@ footer a{
     transform: translateY(0);
 }
 .heading{
-    margin-top: 10%;
+    justify-content: center;
+}
+.links{
+  height: inherit;
+}
+.maindiv{
+ 
+    justify-content: center;
+    align-items: center;
+    
+}
+.linkcolor{
+    color:rgba(1, 1, 6, 0.845);
 }
 
 @media only screen and (max-width: 650px) {
