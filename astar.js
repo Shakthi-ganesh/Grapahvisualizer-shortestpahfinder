@@ -10,7 +10,7 @@ let col = 12
 let start = null
 let end = null
 const time = 100;
-// array containing postion of wallss
+// array containing  postion of wallss
 let walls = emptyArray(row, col)
 
 function checkoverflow(box) {
