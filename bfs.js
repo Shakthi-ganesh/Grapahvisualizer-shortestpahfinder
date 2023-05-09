@@ -7,7 +7,7 @@ window.addEventListener('load', () => {
 
 let row = 10
 let col = 10
-
+//imi
 
 function checkoverflow(box) {
     let width = box.offsetWidth
